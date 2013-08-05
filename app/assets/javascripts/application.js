@@ -17,3 +17,4 @@
 //= require blacklight/blacklight
 //= require turbolinks
 //= require_tree .
+//= require sufia
