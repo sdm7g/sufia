@@ -57,6 +57,8 @@ gem "bootstrap-sass"
 group :development, :test do
   gem "rspec-rails"
   gem "jettywrapper"
+  gem "capybara"
+  gem "factory_girl_rails"
 end
 
 gem 'activerecord-import'
