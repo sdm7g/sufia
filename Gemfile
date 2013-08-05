@@ -43,3 +43,18 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'blacklight'
+gem 'hydra-head'
+gem 'sufia'
+gem 'kaminari', github: 'harai/kaminari', branch: 'route_prefix_prototype'  # required to handle pagination properly in dashboard. See https://github.com/amatsuda/kaminari/pull/322
+gem 'jettywrapper'
+gem 'font-awesome-sass-rails'
+
+gem "devise"
+gem "devise-guests", "~> 0.3"
+gem "bootstrap-sass"
+group :development, :test do
+  gem "rspec-rails"
+  gem "jettywrapper"
+end
